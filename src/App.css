@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.main1 {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fd5c63;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header1 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.header2 {
+    font-size: 125%;
+}
+.inp1 {
+    border-radius: 50px;
+    text-align: center;
+    height: 30px;
+    width: 20%;
+    margin : 2%;
+    margin-top: 1%;
+    font-size: 100%;
+}
+.button1 {
+    background-color:  #191970;
+    color: white;
+    font-size: 100%;
+    border-radius: 25px;
+    height: 40px;
+    width: 20%;
+    margin : 2%;
+    font-family: 'Varela Round', sans-serif;
+    border: none;
+    transition-duration: 0.3s;
+}
+.button1:hover {
+    background-color: #008080;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.result1 {
+    background-color: #58111A;
+    border-radius: 0% 0% 10px 10px;
+    padding: 2%;
+    color: white;
+}
+.result2 {
+    font-weight: 1000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (max-width: 600px) {
+
+.main1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+.inp1 {
+    width: 50%;
+}
+.button1 {
+    width: 50%;
+    margin : 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
